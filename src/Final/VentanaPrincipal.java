@@ -132,7 +132,7 @@ public class VentanaPrincipal {
 		LabelTop.setBounds(0, 0, 780, 68);
 		PanelCenter.add(LabelTop);
 		
-		JLabel LabelACR = new JLabel("Actividad Reciente");
+		JLabel LabelACR = new JLabel("Actividad reciente");
 		LabelACR.setHorizontalAlignment(SwingConstants.CENTER);
 		LabelACR.setForeground(Color.WHITE);
 		LabelACR.setFont(new Font("Edu TAS Beginner", Font.PLAIN, 20));
