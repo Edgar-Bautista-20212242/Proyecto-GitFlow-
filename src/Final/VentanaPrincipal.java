@@ -149,7 +149,7 @@ public class VentanaPrincipal {
 		PanelCenter.add(PanelAc);
 		PanelAc.setLayout(null);
 		
-		JLabel LabelVH = new JLabel("Ventas Hoy");
+		JLabel LabelVH = new JLabel("Ventas hoy");
 		LabelVH.setForeground(new Color(253, 245, 230));
 		LabelVH.setHorizontalAlignment(SwingConstants.CENTER);
 		LabelVH.setFont(new Font("Edu TAS Beginner", Font.PLAIN, 18));
@@ -166,7 +166,7 @@ public class VentanaPrincipal {
 		PanelCenter.add(PanelAc1);
 		PanelAc1.setLayout(null);
 		
-		JLabel lblGananciasTotalesHoy = new JLabel("Ganancias Totales Hoy");
+		JLabel lblGananciasTotalesHoy = new JLabel("Ganancias totales hoy");
 		lblGananciasTotalesHoy.setForeground(new Color(253, 245, 230));
 		lblGananciasTotalesHoy.setHorizontalAlignment(SwingConstants.CENTER);
 		lblGananciasTotalesHoy.setFont(new Font("Edu TAS Beginner", Font.PLAIN, 16));
@@ -184,7 +184,7 @@ public class VentanaPrincipal {
 		PanelCenter.add(PanelAc3);
 		PanelAc3.setLayout(null);
 		
-		JLabel lblNewLabel_1_1_1 = new JLabel("Gastos Totales Hoy");
+		JLabel lblNewLabel_1_1_1 = new JLabel("Gastos totales hoy");
 		lblNewLabel_1_1_1.setForeground(new Color(253, 245, 230));
 		lblNewLabel_1_1_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1_1_1.setFont(new Font("Edu TAS Beginner", Font.PLAIN, 16));
@@ -200,7 +200,7 @@ public class VentanaPrincipal {
 		PanelAC2.setBounds(108, 419, 256, 160);
 		PanelCenter.add(PanelAC2);
 		PanelAC2.setLayout(null);
-		JLabel LabelCobrar = new JLabel("Cuentas Pendientes Para Hoy");
+		JLabel LabelCobrar = new JLabel("Cuentas pendientes para el dia de hoy");
 		LabelCobrar.setForeground(new Color(253, 245, 230));
 		LabelCobrar.setHorizontalAlignment(SwingConstants.CENTER);
 		LabelCobrar.setFont(new Font("Edu TAS Beginner", Font.PLAIN, 16));
@@ -834,9 +834,12 @@ public class VentanaPrincipal {
 				Venta p = new Venta();
 				CambiarPanel(p);
 				LabelLoc.setText("Venta");
-			}
+			} 
 		});
 		BTNVenta.add(LabelVentas);
 		PanelPrincipal.add(BTNVenta);
 	}
-}
+} 
+
+
+
